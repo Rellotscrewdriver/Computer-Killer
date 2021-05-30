@@ -14,10 +14,9 @@ int main()
 
     ofstream virus(text);
     while(true){
-        virus << "You've been hacked, go cry in corner" << text;
+        virus << "You've been hacked, go cry in corner " << text << endl;
     }
 
     //I should closing the file but for this program, nope.
     //virus.close();
-    return 0;
 }
